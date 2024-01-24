@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+    color: white;
+}
+.numpad div{
+    list-style: none;
+    border: 2px solid rgb(22, 22, 22);
+    text-align: center;
+    border-radius: 50px;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    background-color: rgb(43, 43, 43);
+}
+.input{
+    grid-row: 1/2;
+    grid-column: 1/5;
+    border-radius: 37px !important;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(48, 98, 173) !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+}
+.numpad{
+    background-color: rgb(29, 29, 29);
+    border-radius: 37px;
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: 120px 90px 90px 90px 90px 90px;
+    justify-content: center;
+}
+.item13{
+    color: rgb(255, 145, 0);
+}
+.itemequal{
+    grid-row: 6/7;
+    grid-column: 2/5;
+}
+.myInput{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.item:active{
+    scale: 0.95;
+    transition: all 0.2s ease-out;
+}

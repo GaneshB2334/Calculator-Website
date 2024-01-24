@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calc">
+        <div class="numpad">
+            <div class="input">
+            </div>
+            <div class="item item1" onclick="val('7')">7</div>
+            <div class="item item2" onclick="val('8')">8</div>
+            <div class="item item3" onclick="val('9')">9</div>
+            <div class="item itemdel" onclick="del()"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" class="injected-svg" data-src="https://hugeicons.storage.googleapis.com/icons/arrow-left-02-stroke-rounded.svg?type=svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" color="#000000">
+                <path d="M4 12L20 12" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M8.99996 17C8.99996 17 4.00001 13.3176 4 12C3.99999 10.6824 9 7 9 7" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+            </div>
+            <div class="item item5" onclick="val('4')">4</div>
+            <div class="item item6" onclick="val('5')">5</div>
+            <div class="item item7" onclick="val('6')">6</div>
+            <div class="item item4" onclick="val('+')">+</div>
+            <div class="item item9" onclick="val('1')">1</div>
+            <div class="item item10" onclick="val('2')">2</div>
+            <div class="item item11" onclick="val('3')">3</div>
+            <div class="item item8" onclick="val('-')">-</div>
+            <div class="item item14" onclick="val('0')">0</div>
+            <div class="item item15" onclick="val('.')">.</div>
+            <div class="item item16" onclick="val('/')">/</div>
+            <div class="item item12" onclick="val('*')">*</div>
+            <div class="item item13" onclick="delall()">C</div>
+            <div class="item itemequal" onclick="solve()"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" class="injected-svg" data-src="https://hugeicons.storage.googleapis.com/icons/equal-sign-stroke-rounded.svg?type=svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" color="#000000">
+                <path d="M4 8H20" stroke="rgb(48, 98, 173)" stroke-width="1.5" stroke-linecap="round"></path>
+                <path d="M4 16H20" stroke="rgb(48, 98, 173)" stroke-width="1.5" stroke-linecap="round"></path>
+                </svg></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
