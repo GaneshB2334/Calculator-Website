@@ -59,3 +59,16 @@ body{
     scale: 0.95;
     transition: all 0.2s ease-out;
 }
+@media only screen and (maxwidth = "750px"){
+    .numpad{
+    background-color: rgb(29, 29, 29);
+    border-radius: 37px;
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,50px);
+    grid-template-rows: 60px 45px 45px 45px 45px 45px;
+    justify-content: center;
+}
+}
